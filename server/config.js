@@ -14,5 +14,12 @@ export default {
         audioDirectory,
         songs: join(audioDirectory, 'songs'),
         fxDirectory: join(publicDirectory, 'fx')
+    },
+    pages: {
+        homeHTML: 'home/index.html',
+        controllerHTML: 'controller/index.html'
+    },
+    location:{
+        home: '/home'
     }
 }
